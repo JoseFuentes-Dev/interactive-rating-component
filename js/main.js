@@ -18,6 +18,7 @@ for(let i =0; i< btns.length;i++){
       document.querySelector('#btnconttaval').disabled=false;
     }else if(i==1){
       rateValue = 2;
+      cuerpo.style.cursor='pointer';
       document.querySelector('#btnconttaval').disabled=false;
     }
     else if(i==2){
